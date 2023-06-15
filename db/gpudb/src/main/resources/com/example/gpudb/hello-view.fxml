@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <TableView fx:id="TableGPU" layoutX="111.0" layoutY="50.0" prefHeight="417.0" prefWidth="597.0">
+      <columns>
+          <TableColumn fx:id="producer_id" prefWidth="75.0" text="producer" />
+          <TableColumn fx:id="GPU_id" prefWidth="75.0" text="GPU" />
+          <TableColumn fx:id="memorySize_id" prefWidth="119.0" text="Memory Size" />
+          <TableColumn fx:id="memoryType_id" prefWidth="119.0" text="Memory Type" />
+          <TableColumn fx:id="connectionType_id" minWidth="0.0" prefWidth="121.0" text="Connection Type" />
+          <TableColumn fx:id="price_id" minWidth="0.0" prefWidth="87.0" text="Price" />
+      </columns>
+    </TableView>
+   <TextField fx:id="TextFiled_producer" layoutX="111.0" layoutY="25.0" prefHeight="25.0" prefWidth="77.0" />
+   <TextField fx:id="TextField_GPU" layoutX="188.0" layoutY="25.0" prefHeight="25.0" prefWidth="77.0" />
+   <TextField fx:id="TextFiled_memorysize" layoutX="265.0" layoutY="25.0" prefHeight="25.0" prefWidth="116.0" />
+   <TextField fx:id="TextFiled_memorytype" layoutX="381.0" layoutY="25.0" prefHeight="25.0" prefWidth="116.0" />
+   <TextField fx:id="TextFiled_connectiontype" layoutX="497.0" layoutY="25.0" prefHeight="25.0" prefWidth="127.0" />
+   <TextField fx:id="TextFiled_price" layoutX="624.0" layoutY="25.0" prefHeight="25.0" prefWidth="84.0" />
+    <Button fx:id="addButton" layoutX="10" layoutY="10" prefHeight="10" prefWidth="60" text="add" />
+</AnchorPane>
