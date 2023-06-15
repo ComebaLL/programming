@@ -1,0 +1,1 @@
+NVIDIA producer 9000 rub 3080 GPU 320 byteGDDR6x memory type HDMI, DisplayPort x3connection type
